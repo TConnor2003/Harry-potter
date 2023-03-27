@@ -1,0 +1,26 @@
+.quizzes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quiz {
+    /* list of items */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    margin: 5px 0;
+}
+
+.quiz h2,
+a {
+    /* quiz title */
+    font-size: 20px;
+    margin: 20px;
+}
