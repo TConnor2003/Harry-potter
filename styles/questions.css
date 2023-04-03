@@ -1,0 +1,117 @@
+.question {
+    margin: auto;
+    width: 80%;
+    height: auto;
+    min-height: 250px;
+    margin-bottom: 50px;
+    background: url(/quiz/images/impossible/background1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1{font-size: 32px; background-color: #0000007c;}
+h2{font-size: 24px; background-color: #0000007c;}
+
+.reorder {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 15px;
+}
+
+.input {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 15px;
+}
+
+.choice {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 15px;
+}
+
+.info{
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff00;
+    right: 0px;
+    bottom: 0px;
+    position: relative;
+}
+
+
+button {
+    height: 50px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #000000a8;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000;
+    scale: 1.1;
+}
+
+input {
+    height: 50px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #000000a8;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    transition: 0.5s;
+}
+
+ul{
+    list-style: none;
+}
+
+li {
+    background-color: #000000a8;
+    margin: 15px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 15px;
+}
+
+
+ol {
+    list-style: decimal;
+    margin: 0 0 0 50px;
+}
+
+
+
+
+
